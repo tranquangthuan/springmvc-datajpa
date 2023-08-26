@@ -5,6 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.fa.demomvc.entity.Product;
 
-//@Repository
+@Repository
 public interface ProductRepositoryJPA extends PagingAndSortingRepository<Product, Long> {
 }
